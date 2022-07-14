@@ -1,0 +1,269 @@
+/*#team .team-single {
+    border: 2px solid #d7a947;
+    display: none;
+}
+#team .team-single.active {
+    display: block
+}*/
+.navega li {
+  display: inline;
+  padding-right: 0.5em;
+}
+
+#lightgallery .team-single {
+    border: 2px solid #FCC00D;
+    display: none;
+}
+#lightgallery .team-single.active {
+    display: block
+}
+
+/*==================================================*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+
+
+ .filter-group {
+     border-bottom: 1px solid #FCC00D
+ }
+
+ .card-filter {
+     position: relative;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     border-radius: 0.37rem
+ }
+
+ .card-header {
+     padding: 0.75rem 1.25rem;
+     margin-bottom: 0;
+     background-color: #fff;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+ }
+
+ .filter-group .card-header {
+     border-bottom: 0
+ }
+
+ .icon-control {
+     margin-top: 6px;
+     float: right;
+     font-size: 80%
+ }
+
+ .list-menu-filter {
+     list-style: none;
+     margin: 0;
+     padding-left: 0
+ }
+
+ .list-menu-filter a {
+     color: #343a40
+ }
+
+ a {
+     text-decoration: none !important;
+     background-color: transparent
+ }
+
+ .checkbox-btn {
+     position: relative
+ }
+
+ .checkbox-btn input {
+     position: absolute;
+     z-index: -1;
+     opacity: 0
+ }
+
+ .checkbox-btn input:checked~.btn {
+     border-color: #3167eb;
+     background-color: #3167eb;
+     color: #fff
+ }
+
+ .btn-light {
+     display: inline-block;
+     font-weight: 600;
+     color: #343a40;
+     text-align: center;
+     vertical-align: middle;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     background-color: #eee;
+     border: 1px solid #eee;
+     padding: 0.45rem 0.85rem;
+     font-size: 10px;
+     line-height: 1.5;
+     border-radius: 0.37rem
+ }
+
+ .btn-light:hover {
+     background-color: #fff;
+     border-color: #989898
+ }
+
+ .btn-medium {
+     font-size: 12px;
+     padding: 10px 22px;
+     display: inline-block;
+     margin-right: 20px;
+     letter-spacing: 2px;
+     border: 1px solid #157af6;
+     width: 100%
+ }
+
+ .highlight-button:hover {
+     background-color: #157af6;
+     border: 2px solid #157af6;
+     color: #fff
+ }
+
+ .custom-control {
+     position: relative;
+     display: block;
+     min-height: 1.5rem;
+     padding-left: 1.5rem
+ }
+ /*404*/
+
+ body{
+          background: #fff;
+     }
+     .error-container {
+          height: 100vh !important;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-family: montserrat, sans-serif;
+          
+     }
+
+     .big-text {
+          font-size: 200px;
+          font-weight: 900;
+          font-family: sans-serif;
+          background: url(https://cdn.pixabay.com/photo/2018/05/30/15/39/thunderstorm-3441687_960_720.jpg) no-repeat;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-size: cover;
+          background-position: center;
+     }
+
+     .small-text {
+          font-family: montserrat, sans-serif;
+          color: rgb(0, 0, 0);
+          font-size: 24px;
+          font-weight: 700;
+          text-transform: uppercase;
+     }
+
+
+
+
+     /* Style the search field */
+     /*form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+     */
+
+     .form-group {
+          display: flex;
+          /* border: 1px #53a0e4 solid;
+          border-radius:30px;
+          overflow: hidden;*/
+     }
+
+     /*   
+     .form-group:focus-within{
+        border: 1px green solid;
+     }
+     */
+
+     /*   input:focus + .control-label
+     */
+     .form-control {
+          overflow: hidden;
+          background: #fff;
+          border: 1px #53a0e4 solid;
+          border-right: none;
+          border-radius: 25px 0px 0px 25px;
+          font-size: 1rem;
+     }
+
+     .form-control:focus {
+          border-color: #61b045;
+          box-shadow: none;
+     }
+
+
+     /* Style the submit button */
+     form .search-btn {
+          all: unset;
+          width: 15%;
+          padding: 10px;
+          background: #1e50e2;
+          color: white;
+          font-size: 17px;
+          border: 1px #1e50e2 solid;
+          border-left: none;
+          /* Prevent double borders */
+          border: 1px #53a0e4 solid;
+          border-radius: 0px 25px 25px 0px;
+          cursor: pointer;
+     }
+
+     form .search-btn:hover {
+          background: #0b7dda;
+     }
+
+.button {
+     color:    #fff;
+     padding: 12px 36px;
+     font-weight: 600;
+     border: none;
+     position: relative;
+     font-family: 'Raleway', sans-serif;
+     display: inline-block;
+     text-transform: uppercase;
+     -webkit-border-radius: 90px;
+     -moz-border-radius: 90px;
+     border-radius: 90px;
+     margin: 2px;
+     margin-top: 2px;
+     background-image: linear-gradient(to right, #09b3ef 0%, #1e50e2 51%,#09b3ef 100%);
+     background-size: 200% auto;
+     flex: 1 1 auto;
+     text-decoration: none;
+
+}
+
+
+.button:hover,
+.button:focus {
+     color:    #ffffff;
+     background-position: right center;
+     -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+     text-decoration: none;
+}
